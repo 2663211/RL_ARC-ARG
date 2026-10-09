@@ -120,6 +120,7 @@ def main() -> None:
         print(f"  {gid:8} levels={levels:3}  actions={actions:5}  state={state}")
     score_val = sc.score if hasattr(sc, "score") else sc
     print(f"\nAggregate scorecard score: {score_val}")
+    
 
 
 if __name__ == "__main__":

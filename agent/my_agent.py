@@ -84,4 +84,9 @@ class MyAgent(Agent):
             action.reasoning = {"why": "random complex action"}
         else:
             action.reasoning = f"random simple action: {action.value}"
+        
+        # print("frames type", type(frames))
+        # print("num of frames", len(frames))
+        # print("latest_frame type", type(latest_frame))
+        # print("latest_frame", latest_frame)
         return action

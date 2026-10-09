@@ -3,6 +3,7 @@
 
 # Python
 .venv/
+arc_env
 __pycache__/
 *.pyc
 
